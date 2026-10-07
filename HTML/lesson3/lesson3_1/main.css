@@ -1,0 +1,29 @@
+body {
+    margin: 1vw;
+}
+header {
+    height: 50vh;
+    background-color: #2169ba;
+}
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+section {
+    height: 50vh;
+    width: 32%;
+    background-color: #16457a;
+}
+footer {
+    height: 100vh;
+    background-color: #2169ba;
+}
+header, section, footer {
+    font-size: 40px;
+    color: #e4e4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

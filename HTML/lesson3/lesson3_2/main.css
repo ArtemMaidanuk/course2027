@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50vh;
+    background-color: #fdbfc9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+}
+footer {
+    height: 50vh;
+    background-color: #272727;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+p {
+    width: 90%;
+}
+.decoration {
+    text-align: center;
+    gap: 40px;
+    font-size: 30px;
+}
