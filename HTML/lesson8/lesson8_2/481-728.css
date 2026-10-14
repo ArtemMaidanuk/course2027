@@ -1,0 +1,12 @@
+@media screen and (min-width: 481px) and (max-width: 728px) {
+    .w-1180 {
+        width: 720px;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .card {
+        width: 348px;
+        margin-bottom: 16px;
+    }
+
+}

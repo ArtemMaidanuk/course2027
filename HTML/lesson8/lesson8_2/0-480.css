@@ -1,0 +1,11 @@
+@media screen  and (max-width: 480px) {
+    .w-1180 {
+        width: 100%;
+        gap: 32px;
+        padding: 32px 16px;
+        flex-direction: column;
+    }
+    .card {
+        width: 100%;
+    }
+}

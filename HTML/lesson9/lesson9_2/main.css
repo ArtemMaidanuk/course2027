@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+.grit {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 74vw 26vw;
+    grid-template-rows: 1fr 1fr 0.5fr 0.5fr 1fr 1fr;
+    grid-template-areas:
+      "header header"
+      "Content1 spam1"
+      "Content2 spam1"
+      "Content2 spam2"
+      "Content3 spam2"
+      "footer footer" ;
+
+
+}
+header, footer {
+    color: #000;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+header {
+    grid-area: header;
+    background: #8D8484;
+
+}
+aside,section {
+    color: #FFF;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+.Content1 {
+    grid-area: Content1;
+    background: #776969;
+}
+
+.Content2 {
+    grid-area: Content2;
+    background: #643030;
+}
+
+.Content3 {
+    grid-area: Content3;
+    background: #441818;
+}
+
+.spam1 {
+    grid-area: spam1;
+    background: #937575;
+}
+
+.spam2 {
+    grid-area: spam2;
+    background: #644C4C;
+}
+
+footer {
+    grid-area: footer;
+    background: #BDBDBD;
+
+}
