@@ -1,0 +1,31 @@
+.users-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+.user-block {
+    background: silver;
+    border: 1px solid black;
+    text-align: center;
+}
+.user-block h2{
+    color: #c80606;
+}
+.user-block h3{
+    color: #533308;
+}
+.address-block {
+    font-size: 20px;
+}
+.address-block p:nth-child(1){
+    color: #073d68;
+}
+.address-block p:nth-child(2){
+    color: #065c0c;
+}
+.address-block p:nth-child(3){
+    color: #6c3a04;
+}
+.address-block p:nth-child(4){
+    color: #46b605;
+}
