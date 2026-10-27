@@ -1,5 +1,4 @@
-const suits = ['spade', 'diamond', 'heart', 'clubs'];
-const values = ['6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'];
+
 
 // описати колоду карт (від 6 до туза без джокерів). Більшу частину колоди можна описати з використанням циклу
 // Приклад моделі об'єкту карти:
@@ -10,6 +9,8 @@ const values = ['6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'];
 //
 //     color:'', // 'red','black'
 // }
+let suits = ['spade', 'diamond', 'heart', 'clubs'];
+let values = ['6', '7', '8', '9', '10', 'jack', 'queen', 'king', 'ace'];
 
 const cards = []
 
@@ -48,7 +49,7 @@ console.log(cardClubs);
 
 // Взяти описану колоду карт, та за допомогою reduce "упакувати" всі карти по "мастях" в об'єкт
 
-let cardReduce = cards.reduce((previousValue, currentValue) => {
+const cardReduce = cards.reduce((previousValue, currentValue) => {
     switch (currentValue.cardSuit) {
         case 'clubs':
             previousValue.clubs.push(currentValue.value);
