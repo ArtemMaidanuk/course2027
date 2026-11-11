@@ -1,0 +1,15 @@
+#block {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 20px
+}
+#block div {
+    border: #1E1E1E 1px solid;
+    text-align: center;
+}
+#next, #prev{
+    display: block;
+    margin: 20px auto 0 auto ;
+    width: 100px;
+}
