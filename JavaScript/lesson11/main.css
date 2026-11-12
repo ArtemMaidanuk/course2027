@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 20px
+
+}
+
+.recipe {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.recipe img {
+    width: 100%;
+    border-radius: 20%;
+    margin-top: 15px;
+}
+
+.recipe h2 {
+    color: #1185e8;
+    text-align: center;
+}
+
+.recipe ol > li {
+    list-style: none;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.recipe h3 {
+    color: #c80606;
+    text-align: center;
+}
+
+.recipe p {
+    color: #246846;
+    margin-top: 20px;
+}
+
+.recipe ul > li {
+    margin-left: 50px;
+    padding-top: 10px;
+}
+
+.recipe ul {
+    padding-bottom: 20px;
+}
